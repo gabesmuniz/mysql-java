@@ -23,6 +23,8 @@ public class Program {
 
 		try {
 			conn = DB.getConnection();
+			
+			// ADICIONANDO DADOS
 			/*
 			st = conn.prepareStatement("INSERT INTO seller " + "(Name, Email, BirthDate, BaseSalary, DepartmentId)"
 					+ "VALUES " + "(?,?,?,?,?)", 
